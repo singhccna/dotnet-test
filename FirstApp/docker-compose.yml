@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  firstapp:
+    image: firstapp
+    build:
+      context: .
+      dockerfile: ./Dockerfile
